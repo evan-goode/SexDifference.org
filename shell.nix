@@ -1,4 +1,4 @@
 { pkgs ? import <nixos-unstable> {}}:
 pkgs.mkShell {
-    nativeBuildInputs = with pkgs; [ nodejs yarn ];
+    nativeBuildInputs = with pkgs; [ nodejs yarn node-gyp ];
 }
